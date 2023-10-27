@@ -11,6 +11,7 @@
 		8D8B2E862AEC5C670066320B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B2E852AEC5C670066320B /* ContentView.swift */; };
 		8D8B2E882AEC5C690066320B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B2E872AEC5C690066320B /* Assets.xcassets */; };
 		8D8B2E8B2AEC5C690066320B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B2E8A2AEC5C690066320B /* Preview Assets.xcassets */; };
+		8D8B2E922AEC5F080066320B /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B2E912AEC5F080066320B /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8D8B2E852AEC5C670066320B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D8B2E872AEC5C690066320B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D8B2E8A2AEC5C690066320B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D8B2E912AEC5F080066320B /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8D8B2E832AEC5C670066320B /* skoluppgift4App.swift */,
 				8D8B2E852AEC5C670066320B /* ContentView.swift */,
+				8D8B2E912AEC5F080066320B /* MobileNetV2.mlmodel */,
 				8D8B2E872AEC5C690066320B /* Assets.xcassets */,
 				8D8B2E892AEC5C690066320B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8B2E922AEC5F080066320B /* MobileNetV2.mlmodel in Sources */,
 				8D8B2E862AEC5C670066320B /* ContentView.swift in Sources */,
 				8D8B2E842AEC5C670066320B /* skoluppgift4App.swift in Sources */,
 			);
